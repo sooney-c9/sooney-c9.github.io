@@ -1,0 +1,82 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    padding: 3rem 5rem;
+    background-color: #0c0c0c;
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.shortcutHeader{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #2e2e2e;
+    width: 11in;
+    padding: 2vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 2s;
+    position: relative;
+    border: 1px solid #ffffff54;
+}
+
+.shortcutHeaderPar{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+#shortcutList{
+    background-color: #2e2e2e;
+    padding-top: 15px !important;
+    width: 1600px;
+    border: 1px solid #ffffff54;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.count{
+    padding-top: 20px;
+    display: flex;
+    width: 1075px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.shortcutBox{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    gap: 20vh;
+}
+
+.Name{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1200px){
+    .shortcutHeader{
+        width: 5in;
+    }
+    
+    #shortcutList{
+        width: 1000px;
+    }
+}
